@@ -2,6 +2,7 @@
 //link: https://www.codewars.com/kata/525f50e3b73515a6db000b83/solutions/javascript
 
 function createPhoneNumber(numbers){
+    //numbers is a given array that is already assigned values. 
     if (numbers.length==10){
     var array = numbers.map(function(number){
       
